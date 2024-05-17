@@ -1,0 +1,174 @@
+/* footer.css */
+#root-footer {
+    background-color: #f3f3f3;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 7em;
+    margin-bottom: 2em;
+}
+
+footer {
+    background-color: #202529;
+    padding: 70px 20px 20px 20px;
+    text-align: left;
+    color: #656D78;
+    position: relative;
+    border-radius: 1em;
+}
+
+.footer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 100px;
+    height: 750px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.footer-left h2 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: 22px;
+    color: #ffffff;
+}
+
+.get-in-touch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #E54927;
+    color: #ffffff;
+    border: 1px solid #E54927;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0.35em;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 10px;
+    margin-left: 4px;
+    width: auto;
+}
+
+.get-in-touch:hover {
+    background-color: #A92F14;
+    color: #E0F7FA;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.footer-column {
+    margin-right: 30px;
+}
+
+.footer-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #E54927;
+    letter-spacing: 1px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.footer-column ul li i {
+    margin-right: 10px; /* Space between icon and text */
+    color: #656D78; /* Icon color */
+}
+
+.footer-column ul li a:hover i {
+    color: #E54927; /* Icon color on hover */
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 95px;
+}
+
+.footer-line {
+    width: 1px; 
+    height: 50px; 
+    background-color: #656D78; 
+    margin-right: 2px; 
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.large-text {
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+.small-text {
+    font-size: 12px;
+    margin-left: 16px;
+    margin-top: -16px;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+}
+/* .current-year{
+    font-size: 14px;
+} */
+
+.footer-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    font-size: 212px;
+    text-transform: uppercase;
+    /* color: #9EA4AE ; */
+    width: 100%;
+    color: rgba(158, 164, 174, 0.2);
+    font-weight: bolder;
+    word-spacing: 50px;
+    letter-spacing: 30px;
+    margin-left: 22px;
+    margin-top: 90px;
+    
+
+}
+.big-dot{
+    color: #A92F14;
+    margin-left: -30px;
+    
+}

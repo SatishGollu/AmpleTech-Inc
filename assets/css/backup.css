@@ -1,0 +1,145 @@
+/* Intro */
+#root-Chapter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:#202529;
+	width: 90%;
+	height: 600px;
+	border-radius: 1em;
+	padding: 20px;
+	position: relative;
+}
+
+#root-Chapter .insideContainer{
+	display: flex;
+	flex-direction: column;
+	/* row-gap: 2em; */
+	/* background-color: blue; */
+	width: 100%;
+	color: #9EA4AE;   
+	/* height: 80%; */
+
+}
+#root-Chapter .insideContainer-focus{
+	font-weight: bold;
+}
+
+
+.wrapper.style3.industries{
+	/* background-color: teal; */
+	padding-bottom: 0px;
+}
+.wrapper.style1.small-wrapper{
+	/* background-color: rgb(177, 172, 172); */
+	padding-top: 0;
+	padding-bottom: 0 !important;
+}
+
+.wrapper.style1.medium-wrapper{
+	/* background-color: rgb(177, 172, 172); */
+	padding-top: 0;
+	padding-bottom: 0 !important;
+}
+.style2.customFontSize{
+	font-size: 2em !important;
+	padding-bottom: 0px !important;
+}
+.small-highlight{
+	width: 91% !important;
+	height: 250px !important;
+	margin-top: -1em;
+
+}
+
+.medium-highlight{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 91% !important;
+	/* height: 500px !important; */
+	margin-top: 2em;
+	background-color: #E54927 !important;
+
+}
+/* testing start*/
+.equalcols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;  /* Adjust height as needed */
+    text-align: center;
+}
+
+.employer-candidate-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.half-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    position: relative;
+	margin-top: -3em;
+}
+
+.half-section.employer {
+    /* background: rgba(0, 0, 0, 0.6); Adjust employer background as needed */
+}
+
+.half-section.candidate {
+    /* background: rgba(0, 0, 0, 0.4); Adjust candidate background as needed */
+}
+.icon {
+    width: 10%;    /* Adjust width as necessary */ 
+    margin-bottom: 0.9em; /* Space between icon and heading */
+}
+.icon2 {
+    width: 10%;    /* Adjust width as necessary */ 
+    margin-bottom: 0.9em; /* Space between icon and heading */
+	scale: 1.2;
+}
+
+
+.half-section .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+.half-section .content h2 {
+    font-size: 2.5em;
+    /* margin: 0.5em 0; */
+	color: #ffffff;
+}
+
+.half-section .content p {
+    font-size: 1em;
+    margin: 0.5em 0;
+	color: #ffffff;
+}
+
+.button-decor2{
+	width: 18em !important;
+	background-color: #202529 !important;
+}
+/* .half-section .content .icon {
+    font-size: 3em;
+	color: #ffffff;
+} */
+#intro p.style2.customFontSize2{
+	color: #A92F14;
+}
+.customFontSize2{
+	font-size: 3em !important;
+	padding-bottom: 0px !important;
+	color: #A92F14 !important;
+	text-transform: uppercase;
+	margin-top: -1em;
+}
